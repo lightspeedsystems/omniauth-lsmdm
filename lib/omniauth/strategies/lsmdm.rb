@@ -3,7 +3,7 @@ require 'multi_json'
 
 module OmniAuth
   module Strategies
-    class lsmdm < OmniAuth::Strategies::OAuth2
+    class Lsmdm < OmniAuth::Strategies::OAuth2
       option :name, :lsmdm
       option :client_options, {:authorize_path => '/oauth/authorize',
                                :site => 'http://api.lsmdm.com'}
