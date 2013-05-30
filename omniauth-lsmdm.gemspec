@@ -4,7 +4,7 @@ require "omniauth-lsmdm/version"
 
 Gem::Specification.new do |s|
   s.name        = "omniauth-lsmdm"
-  s.version     = Omniauth::lsmdm::VERSION
+  s.version     = Omniauth::Lsmdm::VERSION
   s.authors     = ["Andrew Hecht"]
   s.email       = ["andrewh@lightspeedsystems.com"]
   s.homepage    = "https://github.com/lightspeedsystems/omniauth-lsmdm"
